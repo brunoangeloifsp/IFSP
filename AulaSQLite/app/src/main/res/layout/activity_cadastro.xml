@@ -99,10 +99,14 @@
             android:id="@+id/btnSalvar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Salvar"
             android:textAlignment="center"
             android:textSize="22sp"
-            android:layout_weight="1"
-            android:text="Salvar" />
+            android:backgroundTint="#255"
+            app:icon="@android:drawable/ic_menu_save"
+            app:iconTint="#EEF" />
+
 
     </TableRow>
 
@@ -119,6 +123,7 @@
             android:textAlignment="center"
             android:textSize="22sp"
             android:layout_weight="1"
+            android:backgroundTint="#255"
             android:text="Editar" />
 
     </TableRow>
